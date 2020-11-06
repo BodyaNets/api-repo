@@ -1,0 +1,8 @@
+{
+  "mocha.files.glob": "./**/test/**/*.spec.ts",
+  "mocha.requires": [
+    "ts-node/register",
+    "reflect-metadata"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

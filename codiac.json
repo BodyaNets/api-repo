@@ -1,0 +1,29 @@
+{
+  "name": "api-test-5",
+  "tenantCode": "unregistered",
+  "buildDef": [],
+  "submodules": [],
+  "images": {
+    "api-test-5": {
+      "name": "api-test-5",
+      "targets": [
+        {
+          "environment": "default",
+          "registryUrl": "https://index.docker.io/v1"
+        }
+      ],
+      "incarnations": [],
+      "definitionFile": "Dockerfile"
+    }
+  },
+  "namedCalls": {
+    "build": {
+      "default": {
+        "args": {},
+        "flags": {
+          "skip": "images"
+        }
+      }
+    }
+  }
+}
